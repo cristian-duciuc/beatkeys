@@ -19,6 +19,6 @@
     "test": "node --test"
   },
   "dependencies": {
-    "@worklouder/input-kit": "file:../input-kit"
+    "@worklouder/input-kit": "^0.3.0"
   }
 }
