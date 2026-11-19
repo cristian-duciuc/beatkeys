@@ -1,0 +1,197 @@
+{
+  "id": 1,
+  "name": "VU Meter",
+  "description": "A 3-band VU meter for what your Mac plays.",
+  "os": [
+    0
+  ],
+  "keyboardLayoutTypes": [
+    "universal"
+  ],
+  "devices": [
+    "codex_micro",
+    "creator_micro_v2",
+    "creator_micro_v2_base",
+    "creator_micro_v2_pro"
+  ],
+  "layer": {
+    "id": 0,
+    "name": "VU Meter",
+    "color": "#00FF00",
+    "os": 0,
+    "layout": {
+      "base": [
+        [
+          {
+            "keycode": "SA_1"
+          },
+          {
+            "keycode": "SA_5"
+          }
+        ],
+        [
+          {
+            "keycode": "KC_MPLY"
+          },
+          {
+            "keycode": "SA_2"
+          },
+          {
+            "keycode": "SA_6"
+          },
+          {
+            "keycode": "SA_9"
+          }
+        ],
+        [
+          {
+            "keycode": "KC_NONE"
+          },
+          {
+            "keycode": "SA_3"
+          },
+          {
+            "keycode": "SA_7"
+          },
+          {
+            "keycode": "SA_10"
+          }
+        ],
+        [
+          {
+            "keycode": "SA_4"
+          },
+          {
+            "keycode": "SA_8"
+          },
+          {
+            "keycode": "SA_11"
+          }
+        ]
+      ],
+      "encoders": [
+        [
+          {
+            "keycode": "KC_VOLD"
+          },
+          {
+            "keycode": "KC_VOLU"
+          },
+          {
+            "keycode": "KC_MUTE"
+          }
+        ]
+      ],
+      "joystick": {
+        "type": "RADIAL",
+        "sectors": []
+      }
+    }
+  },
+  "actions": [],
+  "actionGroups": [],
+  "multiactions": [],
+  "multiactionGroups": [],
+  "smartActions": [
+    {
+      "id": 1,
+      "name": "VU band 1 row 1",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b1-r1"
+      }
+    },
+    {
+      "id": 2,
+      "name": "VU band 1 row 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b1-r2"
+      }
+    },
+    {
+      "id": 3,
+      "name": "VU band 1 row 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b1-r3"
+      }
+    },
+    {
+      "id": 4,
+      "name": "VU band 1 row 4",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b1-r4"
+      }
+    },
+    {
+      "id": 5,
+      "name": "VU band 2 row 1",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b2-r1"
+      }
+    },
+    {
+      "id": 6,
+      "name": "VU band 2 row 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b2-r2"
+      }
+    },
+    {
+      "id": 7,
+      "name": "VU band 2 row 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b2-r3"
+      }
+    },
+    {
+      "id": 8,
+      "name": "VU band 2 row 4",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b2-r4"
+      }
+    },
+    {
+      "id": 9,
+      "name": "VU band 3 row 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b3-r2"
+      }
+    },
+    {
+      "id": 10,
+      "name": "VU band 3 row 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b3-r3"
+      }
+    },
+    {
+      "id": 11,
+      "name": "VU band 3 row 4",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "vu-b3-r4"
+      }
+    }
+  ],
+  "smartActionGroups": []
+}

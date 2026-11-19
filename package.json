@@ -1,0 +1,24 @@
+{
+  "name": "beatkeys",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "A 3-band VU meter for what your Mac plays, shown on the keys of a Work Louder Creator Micro V2",
+  "engines": {
+    "node": ">=22.4.0"
+  },
+  "scripts": {
+    "build": "mkdir -p bin && swiftc -O -swift-version 5 -o bin/audio-tap tap/AudioTap.swift",
+    "postinstall": "npm run build",
+    "install-layer": "node src/main.mjs --install-layer",
+    "start": "node src/main.mjs",
+    "install-volume-layer": "node src/main.mjs --install-layer --volume",
+    "volume": "node src/main.mjs --volume",
+    "levels": "node src/main.mjs --levels",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@worklouder/input-kit": "file:../input-kit"
+  }
+}
